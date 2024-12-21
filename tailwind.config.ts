@@ -13,8 +13,15 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        raleway: ["Raleway"]
-      }
+        raleway: ["Raleway", "serif"],
+      },
+      fontWeight: {
+        light: "300",
+        regular: "400",
+        medium: "500",
+        bold: "700",
+        black: "900",
+      },
     },
   },
   plugins: [],
