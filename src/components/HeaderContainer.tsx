@@ -19,7 +19,7 @@ const HeaderContainer = () => {
           <h1 className="text-7xl tracking-wide font-raleway font-bold leading-[75px]">
             We make you learn language easily!
           </h1>
-          <p className="leading-7 text-lg">
+          <p className="leading-8 text-lg">
             We help you learn language easily, with small lessons, you'll earn
             points and unlock new levels while improving you're world
             communications.
