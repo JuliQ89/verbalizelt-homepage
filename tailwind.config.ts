@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        yellow: "#ffce32",
+        lightyellow: "#FFF0BF",
+        darkgrey: "#717171",
+        divider: "#A8A8A8",
       },
       fontFamily: {
         raleway: ["Raleway", "serif"],
@@ -19,6 +23,7 @@ export default {
         light: "300",
         regular: "400",
         medium: "500",
+        semibold: "600",
         bold: "700",
         black: "900",
       },

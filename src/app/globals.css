@@ -37,6 +37,13 @@
 
 @font-face {
   font-family: "Raleway";
+  src: url("../assets/font/Raleway/static/Raleway-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Raleway";
   src: url("../assets/font/Raleway/static/Raleway-Bold.ttf");
   font-style: normal;
   font-weight: 700;
@@ -57,5 +64,5 @@ body {
 }
 
 .button {
-  @apply rounded-full py-2 px-7 flex items-center justify-center font-medium bg-[#ffce32] outline-none border-none cursor-pointer;
+  @apply rounded-full py-3 px-9 flex items-center justify-center font-medium text-sm bg-yellow outline-none border-none cursor-pointer;
 }

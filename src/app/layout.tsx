@@ -1,10 +1,5 @@
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Verbalizelt",
-  description: "description",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -12,9 +7,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body>
-        {children}
-      </body>
+      <head>
+        <meta name="description" content="description" />
+        <meta name="apple-mobile-web-app-title" content="Verbalizelt" />
+        <title>Verbalizelt</title>
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

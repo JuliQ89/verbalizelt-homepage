@@ -13,20 +13,20 @@ import zoom from "../assets/images/zoom.svg";
 
 const HeaderContainer = () => {
   return (
-    <div className="w-full flex flex-col px-20 py-10 grow gap-20 justify-evenly border-b border-[#A8A8A8] pb-14">
-      <div className="w-full flex gap-10">
-        <div className="flex flex-col gap-10 basis-2/5 justify-center">
-          <h1 className="text-6xl tracking-wide font-raleway font-bold leading-[60px]">
+    <div className="w-full flex flex-col px-20 py-10 grow gap-20 justify-evenly border-b border-divider pb-14">
+      <div className="w-full flex gap-10 justify-between">
+        <div className="flex flex-col gap-8 basis-2/5 justify-center">
+          <h1 className="text-7xl tracking-wide font-raleway font-bold leading-[75px]">
             We make you learn language easily!
           </h1>
-          <p>
+          <p className="leading-7 text-lg">
             We help you learn language easily, with small lessons, you'll earn
             points and unlock new levels while improving you're world
             communications.
           </p>
           <div className="flex items-center gap-3 mt-2">
             <input
-              className="rounded-full py-4 px-5 bg-[#f5f5f5] outline-none border-none w-72 placeholder:text-[#717171]"
+              className="rounded-full py-3 px-5 bg-[#f5f5f5] outline-none border-none w-72 placeholder:text-darkgrey"
               type="email"
               name="email"
               id="email"
@@ -35,21 +35,22 @@ const HeaderContainer = () => {
             <button className="button">Get Started</button>
           </div>
         </div>
-        <div className="flex items-center justify-center basis-3/5">
+        <div className="flex items-center justify-center basis-1/2">
           <div className="relative h-full w-full z-[1]">
-            <div className="bg-[#FFF0BF] rounded-[40px] px-16 max-h-[550px] h-full w-full absolute -z-[1] bottom-0"></div>
-            <div className="flex items-end justify-center w-full h-full">
+            <div className="bg-lightyellow rounded-[40px] px-16 max-h-[550px] h-full w-full absolute -z-[1] bottom-0"></div>
+            <div className="flex items-end justify-center w-full h-full relative overflow-hidden">
               <Image
                 src={mobile_1}
                 alt=""
                 width={320}
                 className="relative left-6"
               />
+              <div className="absolute bg-[#353535] opacity-30 w-[229px] h-[424px] blur-[50px]"></div>
               <Image
                 src={mobile_2}
                 alt=""
                 width={320}
-                className="relative -left-6"
+                className="relative -left-6 "
               />
             </div>
           </div>

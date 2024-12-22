@@ -3,21 +3,33 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="w-full px-20">
-      <div className="flex items-center justify-between border-b border-[#A8A8A8] py-4">
+      <div className="flex items-center justify-between border-b border-divider py-4">
         <Link href="/">
           <h1 className="font-bold text-xl">Verbalizelt</h1>
         </Link>
-        <div className="flex items-center gap-6">
-          <Link className="text-sm" href="/service">
+        <div className="flex items-center gap-10">
+          <Link
+            className="hover:border-b hover:border-yellow hover:pb-[5px]"
+            href="/service"
+          >
             Service
           </Link>
-          <Link className="text-sm" href="/blog">
+          <Link
+            className="hover:border-b hover:border-yellow hover:pb-[5px]"
+            href="/blog"
+          >
             Blog
           </Link>
-          <Link className="text-sm" href="/about-us">
+          <Link
+            className="hover:border-b hover:border-yellow hover:pb-[5px]"
+            href="/about-us"
+          >
             About Us
           </Link>
-          <Link className="text-sm" href="/contact">
+          <Link
+            className="hover:border-b hover:border-yellow hover:pb-[5px]"
+            href="/contact"
+          >
             Contact
           </Link>
         </div>
