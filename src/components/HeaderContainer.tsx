@@ -20,8 +20,8 @@ const HeaderContainer = () => {
             We make you learn language easily!
           </h1>
           <p className="leading-8 text-lg">
-            We help you learn language easily, with small lessons, you'll earn
-            points and unlock new levels while improving you're world
+            We help you learn language easily, with small lessons, you&apos;ll
+            earn points and unlock new levels while improving you&apos;re world
             communications.
           </p>
           <div className="flex items-center gap-3 mt-2">
