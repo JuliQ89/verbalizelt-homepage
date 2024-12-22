@@ -3,9 +3,11 @@ import HeaderContainer from "@/components/HeaderContainer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full">
-      <Header />
-      <HeaderContainer />
+    <div className="h-screen w-full">
+      <div className="flex flex-col w-full h-screen max-h-[90%]">
+        <Header />
+        <HeaderContainer />
+      </div>
     </div>
   );
 }
